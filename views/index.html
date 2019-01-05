@@ -18,7 +18,7 @@
           <div class="jumbotron">
             <h1 class="display-4">This page will be updated</h1>
             <p>Mostly contains stuff about me, and projects I'm working on.</p>
-            <a class="btn btn-outline-primary btn-lg" href="#" role="button">Care 'bout me?</a>
+            <a class="btn btn-outline-primary btn-lg disabled" href="#" role="button">Care 'bout me?</a>
             <hr class="my-4">
             <p>This page is currently maintained using Express, and HTML + JS</p>
           </div>
@@ -37,6 +37,45 @@
               I'm currently exploring Python, R, Statistics, JavaScript and website development. This is supposed
               to be my personal website, and i'll try to keep it updated with what i'm currently up to.
             </p>
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Education</a>
+                  <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Work</a>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm-5">
+                        <div class="card">
+                          <img src="img/iba-logo.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Institute of Business Administration, Karachi</h5>
+                            <p class="card-text"><small class="text-muted">BS in Computer Science (2016)</small></p>
+                            <p class="card-text">Completed my Bachelor studies in Computer Science here. Amongst my core CS courses, I had electives like
+                              Data Mining, Business Intelligence, Statistical Inference etc.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-5">
+                        <div class="card">
+                          <img src="img/monash-logo.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Monash University, Melbourne</h5>
+                            <p class="card-text"><small class="text-muted">Master of Data Science (2020)</small></p>
+                            <p class="card-text">Currently pursuing my Master of Data Science from here, have completed foundation units and am looking forward to my cores.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
+              <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+            </div>
           </div>
           <div class="col-sm-4">
             <img class="img-fluid img-thumbnail" src="img/me.jpg" alt="my picture">
