@@ -1,4 +1,22 @@
 
+
+var showAboutMe;
+window.onload = function(){
+    showAboutMe = true;
+    toggleAboutMe();
+}
+
+function toggleAboutMe(){
+    var targetDiv = document.getElementById("aboutme");
+    showAboutMe = !showAboutMe;
+    if(!showAboutMe){
+        targetDiv.style.display = "none";
+    }
+    else{
+        targetDiv.style.display = "block";
+    }
+}
+
 // class TabHandler{
 //   constructor(){
 //     this.tabLink = [];
